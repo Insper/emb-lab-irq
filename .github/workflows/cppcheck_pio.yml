@@ -5,7 +5,7 @@ run-name: Cppcheck
 on: [push]
 
 env:
-  SRC_CODE: PIO_IRQ/src/main.c
+  SRC_CODE: PIO-IRQ/src/main.c
 
 jobs:
   pio_cppcheck:
